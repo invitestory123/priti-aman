@@ -45,6 +45,6 @@ window.WEDDING_DATA = {
   },
 
   bgm: {
-    src: "./editable/assets/bgm.mp3",
+    src: "./editable/assets/kesariya.mp3",
   },
 };

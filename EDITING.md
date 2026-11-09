@@ -35,7 +35,8 @@ Edit `venue` in `editable/wedding-data.js`:
 - `venue.directionsUrl`: "https://maps.app.goo.gl/FpMJ57J3Gw6539fU9?g_st=ic"
 
 ### Background Music
-- Background music file located at `editable/assets/bgm.mp3`.
+- Background music file located at `editable/assets/kesariya.mp3` (also mirrored at `editable/assets/bgm.mp3`).
+- Track: Kesariya (BGM Flute / Instrumental).
 - Path configured in `editable/wedding-data.js` under `bgm.src`.
 - Floating music button in the top-right corner allows guests to play or pause the audio.
 - Autoplays smoothly when guests interact with the wax seal opener gate.

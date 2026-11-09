@@ -47,3 +47,25 @@
   font-display: swap;
   src: url(../fonts.gstatic.com/s/parisienne/v14/E21i_d3kivvAkxhLEVZpcyp6COKv.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/greatvibes/RWmMoKWR9v4ksMfaWd_JN-XC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/cinzel/Cinzel-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/cinzel/Cinzel-SemiBold.ttf) format('truetype');
+}

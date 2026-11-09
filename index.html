@@ -10,10 +10,43 @@
     <meta property="og:description" content="Together with their families, Aman &amp; Priti invite you to share in the joy of their wedding celebration on Wednesday, 25th November 2026 at GRAND ORCHID WEDDING LAWN, Thane." />
     <meta property="og:image" content="./editable/assets/couple.png" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./external/fonts.googleapis.com/css2-abe2d3246c.css" />
     <script src="./editable/wedding-data.js"></script>
     <script type="module" crossorigin src="./assets/index-2d1L6cXj.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/styles-DJO19CfA.css">
+    <link rel="stylesheet" crossorigin href="./assets/styles-DJO19CfA.css" />
     <style>
+      :root {
+        --font-script: "Great Vibes", cursive;
+        --font-serif: "Cormorant Garamond", Georgia, serif;
+        --font-caps: "Josefin Sans", system-ui, sans-serif;
+        --font-venue: "Cinzel", "Cormorant Garamond", Georgia, serif;
+      }
+      .script {
+        font-family: var(--font-script) !important;
+      }
+      .venue-heading {
+        font-family: var(--font-venue) !important;
+        letter-spacing: 0.14em !important;
+        text-transform: uppercase !important;
+        font-weight: 500 !important;
+      }
+      .seal-monogram {
+        font-family: var(--font-venue) !important;
+        font-size: 1.85rem !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.12em !important;
+        padding-left: 0.12em !important;
+        line-height: 1 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
       #music-toggle {
         position: fixed;
         top: 20px;
@@ -65,8 +98,8 @@
   <body>
     <div id="root"></div>
 
-    <!-- Background Music Player -->
-    <audio id="wedding-audio" loop preload="auto" src="./editable/assets/bgm.mp3"></audio>
+    <!-- Background Music Player (Kesariya) -->
+    <audio id="wedding-audio" loop preload="auto" src="./editable/assets/kesariya.mp3"></audio>
 
     <!-- Floating Music Toggle Controller -->
     <button id="music-toggle" aria-label="Toggle background music" title="Toggle background music">

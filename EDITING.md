@@ -43,7 +43,7 @@ Edit `venue` in `editable/wedding-data.js`:
 
 ### Images
 Replace files directly in `editable/assets/` or update paths in `images` in `editable/wedding-data.js`:
-- Hero / Couple illustration: `editable/assets/couple.png`
+- Hero centerpiece illustration (Floral Mandap Arch & Kalash): `editable/assets/couple.png`
 - Footer background: `editable/assets/footer-bg.jpg`
 - Venue map graphic: `editable/assets/map.jpg`
 
